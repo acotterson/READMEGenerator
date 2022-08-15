@@ -63,9 +63,9 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-  inquirer.prompt(questions).then((data) => {
-    
-    writeToFile("README.md", data);
+  inquirer.prompt(questions).then((rawData) => {
+    markdownData = MDGen.generateMarkdown(rawData);
+    writeToFile("README.md", markdownData);
   });
 }
 
