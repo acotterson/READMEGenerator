@@ -56,7 +56,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "None") {
-    let spiel = "## License  \n\nLicensed under the ";
+    let spiel = "## License\n\nLicensed under the ";
     switch (license) {
       case "MIT":
         spiel += "MIT License: ";
@@ -105,63 +105,55 @@ function generateMarkdown(data) {
     email,
   } = data;
 
-  return `# ${title}  
+  return `# ${title}
 
-${renderLicenseBadge(license)}  
+${renderLicenseBadge(license)}
 
-${githubUser}  
-${email}  
+## Description
 
-## Description  
+${description}
 
-${description}  
+## Table of Contents
 
-## Table of Contents  
+- [Description](#description)
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [License](#license)
 
-- [Hi](#hi)  
-  - [Description](#description)  
-  - [Table of Contents](#table-of-contents)  
-  - [Installation](#installation)  
-  - [Usage](#usage)  
-  - [Credits](#credits)  
-  - [How to Contribute](#how-to-contribute)  
-  - [Tests](#tests)  
-  - [License](#license)  
+## Installation
 
-## Installation  
+${installation}
 
-${installation}  
+## Usage
 
-## Usage  
+${usage}
 
-${usage}  
+![Screenshot](assets/images/screenshot.png)
 
-![Screenshot](assets/images/screenshot.png)  
-
-## Credits  
-
-List your collaborators, if any, with links to their GitHub profiles.  
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-
-## How to Contribute  
+## Contributing
 
 ${
   contribution
     ? contribution
     : "[Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)"
-}  
+}
 
+## Tests
 
+${testing}
 
-## Tests  
+## Questions
 
-${testing}  
+Github Profile: [${githubUser}](https://github.com/${githubUser})
 
-${renderLicenseSection(license)}  `;
+If you have any additional questions, I can be reached at [${email}](mailto:${email}).
+
+${renderLicenseSection(license)}
+`;
 }
 
 module.exports = generateMarkdown;

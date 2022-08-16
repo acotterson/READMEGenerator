@@ -65,7 +65,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((rawData) => {
     markdownData = MDGen(rawData);
-    writeToFile("README.md", markdownData);
+    writeToFile("./sample/README.md", markdownData);
   });
 }
 
