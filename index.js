@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const MDGen = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// Array of prompts for the user
 const questions = [
   {
     type: "input",
@@ -54,14 +54,14 @@ const questions = [
   },
 ];
 
-// TODO: Create a function to write README file
+// Write the readme data to a file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) =>
     err ? console.log(err) : console.log("Success!")
   );
 }
 
-// TODO: Create a function to initialize app
+// Prompt for user input, use MDGen to format the readme with the data, then use writeToFile to create the readme file
 function init() {
   inquirer.prompt(questions).then((rawData) => {
     markdownData = MDGen(rawData);
