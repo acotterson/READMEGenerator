@@ -34,7 +34,7 @@ Not adding a license will leave out that section. Not adding contribution guidel
 
 ## Questions
 
-https://github.com/acotterson/READMEGenerator/blob/master/assets/video/readmeGen.mp4
+Github Profile: [acotterson](https://github.com/acotterson)
 
 If you have any additional questions, I can be reached at [acotterson@gmail.com](mailto:acotterson@gmail.com).
 
