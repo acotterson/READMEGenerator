@@ -32,6 +32,8 @@ Not adding a license will leave out that section. Not adding contribution guidel
 
 [Video Link of Usage](assets/videos/readmeGen.mp4)
 
+https://github.com/acotterson/READMEGenerator/blob/master/assets/video/readmeGen.mp4
+
 ## Questions
 
 Github Profile: [acotterson](https://github.com/acotterson)
