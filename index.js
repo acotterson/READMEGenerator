@@ -39,7 +39,8 @@ const questions = [
     type: "list",
     message: "License of application: ",
     name: "license",
-    choices: ["email", "phone", "telekinesis"],
+    choices: ['MIT', 'GPLv2', 'GPLv3', 'LGPLv3', 'AGPLv3', 'Apache', 
+    'BSD 2-clause', 'BSD 3-clause', 'Unlicense', 'None']
   },
   {
     type: "input",
