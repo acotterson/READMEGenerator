@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Returns a license badge based on which license is passed in, nothing for no license
 function renderLicenseBadge(license) {
   if (license !== "None") {
     switch (license) {
@@ -27,8 +26,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Returns the license link
 function renderLicenseLink(license) {
   switch (license) {
     case "MIT":
@@ -52,8 +50,7 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Returns the license section of README or empty string for none
 function renderLicenseSection(license) {
   if (license !== "None") {
     let spiel = "## License\n\nLicensed under the ";
@@ -91,7 +88,7 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// Generate formatted readme string, ready to write to a file
 function generateMarkdown(data) {
   const {
     title,
