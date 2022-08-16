@@ -30,7 +30,7 @@ The readme automatically links to a "screenshot.png" located inside an sibling "
 
 Not adding a license will leave out that section. Not adding contribution guidelines will default to the general "Contributer Covenant".
 
-![Video Link of Usage](https://watch.screencastify.com/v/GnOfxxEeXg6mfAM5mJvI)
+[Video Link of Usage](https://watch.screencastify.com/v/GnOfxxEeXg6mfAM5mJvI)
 
 ## Questions
 
