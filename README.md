@@ -8,7 +8,7 @@ This application will automatically generate a basic README.md file based on res
 
 ## Table of Contents
 
-- [Hi](#hi)
+- [README Generator](#readme-generator)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
