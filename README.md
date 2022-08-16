@@ -26,11 +26,11 @@ Run "node index.js". Answer the prompts. Once all prompts are answered, a README
 
 Be aware that running the application again will overwrite the existing README.md if there is already one in the target directory. Move it or change the targer directory if you want to keep the generated file.
 
-The readme automatically links to a "screenshot.png" located inside an sibling "./assets/images/" relative directory. Edit this if you wish and feel free to edit the completed readme as needed.
+The readme automatically links to a "screenshot.png" located inside an sibling "assets/images/" relative directory. Edit this if you wish and feel free to edit the completed readme as needed.
 
 Not adding a license will leave out that section. Not adding contribution guidelines will default to the general "Contributer Covenant".
 
-[Video Link of Usage](https://watch.screencastify.com/v/GnOfxxEeXg6mfAM5mJvI)
+[Video Link of Usage](assets/videos/readmeGen.mp4)
 
 ## Questions
 
