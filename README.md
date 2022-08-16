@@ -30,9 +30,9 @@ The readme automatically links to a "screenshot.png" located inside an sibling "
 
 Not adding a license will leave out that section. Not adding contribution guidelines will default to the general "Contributer Covenant".
 
-[Video Link of Usage](assets/videos/readmeGen.mp4)
+[Video Link of Usage](https://watch.screencastify.com/v/GnOfxxEeXg6mfAM5mJvI)
 
-https://github.com/acotterson/READMEGenerator/blob/master/assets/video/readmeGen.mp4
+https://user-images.githubusercontent.com/35825121/184833727-37a22623-433b-4d58-a335-70f0dac8f378.mp4
 
 ## Questions
 
