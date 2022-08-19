@@ -24,7 +24,7 @@ Download the files. Open a bash terminal in the main directory. Run "npm install
 
 Run "node index.js". Answer the prompts. Once all prompts are answered, a README.md file filled out with your responses will be generated in the path indicated in the index.js file (it is set to generate in the "sample" folder by default, but you can either change the path or cut and paste the finished file where you need it).
 
-Be aware that running the application again will overwrite the existing README.md if there is already one in the target directory. Move it or change the targer directory if you want to keep the generated file.
+Be aware that running the application again will overwrite the existing README.md if there is already one in the target directory. Move it or change the target directory if you want to keep the generated file.
 
 The readme automatically links to a "screenshot.png" located inside an sibling "assets/images/" relative directory. Edit this if you wish and feel free to edit the completed readme as needed.
 
